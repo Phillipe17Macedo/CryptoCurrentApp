@@ -20,5 +20,6 @@ data class Quote(
 
 // Modelo que representa o preço
 data class Price(
-    val price: Double             // Valor do preço
+    val price: Double,             // Valor do preço
+    val percent_change_24h: String
 )

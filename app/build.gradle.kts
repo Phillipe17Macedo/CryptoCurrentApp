@@ -59,6 +59,7 @@ dependencies {
     implementation(libs.ui.graphics)
     implementation(libs.ui.tooling.preview)
     implementation(libs.material3)
+    implementation(libs.coil.compose)
 
     // Retrofit para chamadas de API
     implementation(libs.retrofit)
